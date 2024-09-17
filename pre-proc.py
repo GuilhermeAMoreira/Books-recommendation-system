@@ -57,10 +57,10 @@ print(users.head())
 import matplotlib.pyplot as plt
 
 # Plotar a distribuição das avaliações normalizadas
-ratings['Rating-Normalized'].hist(bins=20)
-plt.title('Distribuição das Avaliações Normalizadas')
-plt.xlabel('Avaliação Normalizada')
-plt.ylabel('Frequência')
-plt.show()
+#ratings['Rating-Normalized'].hist(bins=20)
+#plt.title('Distribuição das Avaliações Normalizadas')
+#plt.xlabel('Avaliação Normalizada')
+#plt.ylabel('Frequência')
+#plt.show()
 
 print(ratings['Rating-Normalized'].describe())
